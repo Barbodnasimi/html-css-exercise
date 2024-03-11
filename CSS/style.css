@@ -1,0 +1,50 @@
+h1{
+    font-size: 22px;
+}
+
+#author{
+    font-style: italic;
+    font-size: 20px;
+}
+h2{
+    font-size: 38px;
+}
+h3{
+    font-size: 28px;
+}
+h4{
+    align-items: center;
+    font-style: italic;
+    color: cadetblue;
+}
+.related-author{
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.related{
+    list-style: none;
+}
+
+h1,h2,h3{
+    color: cadetblue;
+}
+
+.main-header{
+    text-align: center;
+    background-color: #f1f1f1;
+}
+
+aside{
+    background-color: #f1f1f1;
+    border-top:5px dashed #aaad10;
+    border-bottom:5px dashed #aaad10;
+}
+
+.main-footer{
+    background-color: pink;
+    color: blue;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+}
