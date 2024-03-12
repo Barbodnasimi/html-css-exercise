@@ -15,7 +15,6 @@ h3{
 h4{
     align-items: center;
     font-style: italic;
-    color: cadetblue;
 }
 .related-author{
     font-size: 19px;
@@ -26,7 +25,7 @@ h4{
     list-style: none;
 }
 
-h1,h2,h3{
+h1,h2,h3,h4{
     color: cadetblue;
 }
 
@@ -48,3 +47,39 @@ aside{
     font-size: 40px;
     text-align: center;
 } 
+
+li:first-child,
+li:last-child{
+    font-weight: bold;
+}
+
+
+li:nth-child(odd){
+    color: red;
+}
+li:nth-child(even){
+    color: blueviolet;
+}
+
+/* styling links */
+
+a:link {
+    color: brown;
+    text-decoration: none;
+}
+
+a:visited{
+    color: brown;
+}
+
+a:hover{
+    font-weight: bold;
+    color: orchid;
+    text-decoration:underline wavy orchid;
+}
+   
+a:active{
+    font-style: italic;
+    background-color: black;
+}
+
