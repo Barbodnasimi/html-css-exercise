@@ -1,3 +1,8 @@
+*{
+    margin:0 5px;
+    padding: 0;
+}
+
 h1{
     font-size: 22px;
 }
@@ -8,9 +13,12 @@ h1{
 }
 h2{
     font-size: 38px;
+    margin-bottom: 25px;
 }
 h3{
     font-size: 28px;
+    margin-left: 20px;
+    padding: 25px 0;
 }
 h4{
     align-items: center;
@@ -19,6 +27,7 @@ h4{
 .related-author{
     font-size: 19px;
     font-weight: bold;
+    padding: 25px 0;
 }
 
 .related{
@@ -30,14 +39,19 @@ h1,h2,h3,h4{
 }
 
 .main-header{
-    text-align: center;
+    /* text-align: center; */
     background-color: #f1f1f1;
+    padding: 20px 40px;
+    margin-bottom: 25px;
+    margin-top: 5px;
 }
 
 aside{
     background-color: #f1f1f1;
     border-top:5px dashed #aaad10;
     border-bottom:5px dashed #aaad10;
+    padding: 50px 0;
+    margin-top: 5px;
 }
 
 .main-footer{
@@ -53,6 +67,9 @@ li:last-child{
     font-weight: bold;
 }
 
+li{
+    margin-top: 15px;
+}
 
 li:nth-child(odd){
     color: red;
@@ -66,6 +83,7 @@ li:nth-child(even){
 a:link {
     color: brown;
     text-decoration: none;
+
 }
 
 a:visited{
@@ -83,3 +101,18 @@ a:active{
     background-color: black;
 }
 
+.link {
+    padding: 15px 0;
+}
+
+#author{
+ padding: 15px 0;
+}
+
+p{
+    padding: 5px 0;
+}
+
+footer{
+    margin-bottom: 5px;
+}
