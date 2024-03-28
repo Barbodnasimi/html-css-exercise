@@ -7,6 +7,20 @@ h1{
     font-size: 22px;
 }
 
+h1::first-letter{
+    font-style: normal;
+    font-size: 20px;
+    padding-right: 20px;
+}
+
+/* p::first-line{
+    color: blue;
+} */
+
+body{
+    position: relative;
+}
+
 #author{
     font-style: italic;
     font-size: 20px;
@@ -118,4 +132,14 @@ p{
 
 footer{
     margin-bottom: 5px;
+}
+
+.btn{
+    font-size: 22px;
+    padding: 14px;
+    cursor: pointer;
+
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
 }
