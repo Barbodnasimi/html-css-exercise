@@ -1,5 +1,5 @@
 *{
-    margin:0 5px;
+    margin:0 ;
     padding: 0;
 }
 
@@ -13,9 +13,6 @@ h1::first-letter{
     padding-right: 20px;
 }
 
-/* p::first-line{
-    color: blue;
-} */
 
 body{
     position: relative;
@@ -26,6 +23,7 @@ body{
     font-size: 20px;
 }
 h2{
+    color: cadetblue;
     font-size: 38px;
     margin-bottom: 25px;
 }
@@ -45,10 +43,18 @@ h4{
 }
 
 .related{
+    text-align: right;
     list-style: none;
+    background-color: #f1f1f1;
+    border-top:5px solid #aaad10;
+    border-bottom:5px solid #aaad10;
+    padding: 25px 0;
+    margin-top: 5px;
+    height: 300px;
+    width: 500px;
 }
 
-h1,h2,h3,h4{
+h1,h3,h4{
     color: cadetblue;
     text-align: center;
 }
@@ -58,24 +64,14 @@ h1,h2,h3,h4{
     background-color: #f1f1f1;
     padding: 20px 40px;
     margin-bottom: 25px;
-    margin-top: 5px;
-}
-
-aside{
-    background-color: #f1f1f1;
-    border-top:5px dashed #aaad10;
-    border-bottom:5px dashed #aaad10;
-    padding: 50px 0;
-    margin-top: 5px;
-    height: 700px;
-    width: 800px;
+    border-top:5px solid #aaad10;
 }
 
 .main-footer{
     background-color: pink;
     color: blue;
     font-weight: bold;
-    font-size: 40px;
+    font-size: 30px;
     text-align: center;
 } 
 
@@ -122,16 +118,23 @@ a:active{
     padding: 15px 0;
 }
 
-#author{
- padding: 15px 0;
+article{
+    width: 900px;
+    float: left;
+    height: 650px;
+    background-color: #f1f1f1;
+    margin-left: 5px;
+    border-top:5px solid #aaad10;
+    border-bottom:5px solid #aaad10;
 }
 
-p{
-    padding: 5px 0;
-}
+aside{
+    float: right;
+ }
 
 footer{
-    margin-bottom: 5px;
+    clear: both;
+    height: 200px;
 }
 
 .btn{
@@ -143,3 +146,12 @@ footer{
     bottom: 50px;
     right: 50px;
 }
+
+/* FLOATS */
+
+
+#author{
+    float: right;
+    padding-bottom: 102px;
+    padding-right: 30px;
+   }
