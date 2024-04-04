@@ -1,6 +1,7 @@
 *{
     margin:0 ;
     padding: 0;
+    box-sizing: border-box;
 }
 
 h1{
@@ -43,7 +44,7 @@ h4{
 }
 
 .related{
-    text-align: right;
+    text-align: center;
     list-style: none;
     background-color: #f1f1f1;
     border-top:5px solid #aaad10;
@@ -80,9 +81,9 @@ li:last-child{
     font-weight: bold;
 }
 
-li{
+/* li{
     margin-top: 15px;
-}
+} */
 
 li:nth-child(odd){
     color: red;
@@ -96,8 +97,7 @@ li:nth-child(even){
 a:link {
     color: brown;
     text-decoration: none;
-
-}
+}   
 
 a:visited{
     color: brown;
@@ -114,9 +114,7 @@ a:active{
     background-color: black;
 }
 
-.link {
-    padding: 15px 0;
-}
+
 
 article{
     width: 900px;
@@ -130,6 +128,7 @@ article{
 
 aside{
     float: right;
+    padding: 50px 0;
  }
 
 footer{
