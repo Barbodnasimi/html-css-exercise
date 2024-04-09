@@ -1,26 +1,36 @@
 .el--1{
     background-color: blueviolet;
+    align-self: flex-start;
 }
 .el--2{
     background-color: orangered;
+    align-self: flex-end;
 }
 .el--3{
     background-color: green;
+    align-self: flex-start;
 }
 .el--4{
     background-color: goldenrod;
+    align-self: flex-end;
 }
 .el--5{
     background-color: palevioletred;
+    align-self: stretch;
+    height: 150px;
 }
 .el--6{
     background-color: steelblue;
+    align-self: flex-end;
 }
 .el--7{
     background-color: yellow;
+    align-self: flex-start;
 }
 .el--8{
     background-color: crimson;
+    align-self: flex-end;
+    
 }
 
 .container {
@@ -34,4 +44,15 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 15px;
+}
+
+.el{
+    /* 
+      DEFAULTS:  
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto; */
+
+    flex-basis: 200px;
 }

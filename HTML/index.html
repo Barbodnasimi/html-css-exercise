@@ -12,10 +12,11 @@
       <h1 class="header">✔ The Code Magazine</h1>
       <p id="author">Posted by <b>Loading...</b> on Monday</p>
         <nav>
-            <a href="page2.html">Page2</a>
-            <a href="Flexbox.html">Flexbox</a>
+            <a class="nav-item" href="page2.html">Page2</a>
+            <a class="nav-item" href="Flexbox.html">Flexbox</a>
         </nav>   
     </header>
+   <div class="row"> 
     <article>
         <header>
     <h2>The basic language of the web</h2>
@@ -29,9 +30,7 @@
    <p>
    <em> HTML stands for <strong>H</strong>yber<strong>T</strong>ext <strong>M</strong>arkup <strong>L</strong>anguage.</em>
    </p>
-   <p>
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid laboriosam dolor tempore, quia assumenda quam numquam saepe amet at distinctio nobis, voluptates sequi ad doloremque magni perferendis magnam error architecto.
-   </p>
+   
 
    <ol>
     <li class="first-li">Test</li>
@@ -56,30 +55,38 @@
 
     <ul class="related">
         <h4>Related Post</h4>
-        <li>
-            <a  target="_blank" href="https://www.turingcollege.com/web-development?utm_source=google&utm_medium=cpc&utm_term=learn%20to%20be%20a%20web%20developer&utm_campaign=Search+General+PL+NL+RO+PT+ESP&gad_source=1&gclid=Cj0KCQiArrCvBhCNARIsAOkAGcXk2_K4GrU3KD4Ooc2v1HhxJ96fR640HwbSJGBccA2BNnyL9MWT2aEaAnr6EALw_wcB">
+        <li class="related-post">
+          <div class="related-block">
+            <a class="related-link"  target="_blank" href="https://www.turingcollege.com/web-development?utm_source=google&utm_medium=cpc&utm_term=learn%20to%20be%20a%20web%20developer&utm_campaign=Search+General+PL+NL+RO+PT+ESP&gad_source=1&gclid=Cj0KCQiArrCvBhCNARIsAOkAGcXk2_K4GrU3KD4Ooc2v1HhxJ96fR640HwbSJGBccA2BNnyL9MWT2aEaAnr6EALw_wcB">
                 How to Learn Web Development</a>
-            <p class="related-author">
-               By john
-            </p>
+                <p class="related-author">
+                    By john
+                </p>
+            </div>
         </li>
-        <li>
-            <a  target="_blank" href="https://web.dev/articles/the-amazing-powers-of-css">
-                The Unkown Powers of CSS</a>
-            <p class="related-author">
-               By sara
-            </p>
+            <li class="related-post">
+              <div class="related-block"> 
+                <a class="related-link"  target="_blank" href="https://web.dev/articles/the-amazing-powers-of-css">
+                    The Unkown Powers of CSS</a>
+                    <p class="related-author">
+                        By sara
+                    </p>
+             </div>
         </li>
-        <li>
-            <a  target="_blank" href="https://medium.com/@sannanmalikofficial/why-javascript-is-awesome-4f5ccd46f246">
+          
+        <li class="related-post">
+         <div class="related-block">
+            <a class="related-link"  target="_blank" href="https://medium.com/@sannanmalikofficial/why-javascript-is-awesome-4f5ccd46f246">
                 Why Javascript is Awesome</a>
             <p class="related-author">
                By lara
             </p>
+         </div>
         </li>
     </ul>
-</aside>
+  </aside>
+</div>
 <button class="btn">❤Like</button>
-<footer class="main-footer"></footer>
+<footer class="main-footer">footer</footer>
 </body>
 </html>  

@@ -40,19 +40,14 @@ h4{
 .related-author{
     font-size: 19px;
     font-weight: bold;
-    padding: 25px 0;
 }
 
 .related{
-    text-align: center;
     list-style: none;
     background-color: #f1f1f1;
-    border-top:5px solid #aaad10;
-    border-bottom:5px solid #aaad10;
-    padding: 25px 0;
-    margin-top: 5px;
-    height: 300px;
-    width: 500px;
+    border:5px solid #aaad10;
+    height: 250px;
+    width: 300px;
 }
 
 h1,h3,h4{
@@ -61,11 +56,16 @@ h1,h3,h4{
 }
 
 .main-header{
-    /* text-align: center; */
     background-color: #f1f1f1;
     padding: 20px 40px;
-    margin-bottom: 25px;
     border-top:5px solid #aaad10;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-item{
+   padding-right: 10px;
 }
 
 .main-footer{
@@ -80,10 +80,6 @@ li:first-child,
 li:last-child{
     font-weight: bold;
 }
-
-/* li{
-    margin-top: 15px;
-} */
 
 li:nth-child(odd){
     color: red;
@@ -115,26 +111,11 @@ a:active{
 }
 
 
-
 article{
-    width: 900px;
-    float: left;
-    height: 650px;
     background-color: #f1f1f1;
-    margin-left: 5px;
-    border-top:5px solid #aaad10;
-    border-bottom:5px solid #aaad10;
+    border:5px solid #aaad10;
 }
 
-aside{
-    float: right;
-    padding: 50px 0;
- }
-
-footer{
-    clear: both;
-    height: 200px;
-}
 
 .btn{
     font-size: 22px;
@@ -146,11 +127,17 @@ footer{
     right: 50px;
 }
 
-/* FLOATS */
 
 
-#author{
-    float: right;
-    padding-bottom: 102px;
-    padding-right: 30px;
+.related-block{
+    padding: 25px 5px 0;
+}
+
+.related-post{
+    display: flex;
    }
+
+.row {
+    display: flex;
+    gap: 75px;
+}   
